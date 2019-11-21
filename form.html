@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Creating Forms</title>
+</head>
+
+<body>
+<fieldset>
+<legend>Add User</legend>
+<input id="key" placeholder="key">
+<input id="data" placeholder="data">
+<button id="btn" onclick="save()">save</button>
+</fieldset>
+<fieldset>
+<legend>Output</legend>
+<div id="output"></div>
+</fieldset>
+
+<script>
+const key = document.getElementById('key');
+const data = document.getElementById('data');
+const btnsave = document.getElementById('btn');
+const output = document.getElementById('output');
+
+function save() {
+output.innerHTML = `<h1> ${key.value} </h1> <br/> <h2> ${data.value}</h2>`;
+
+}
+
+</script>
+
+
+
+</body>
+</html>

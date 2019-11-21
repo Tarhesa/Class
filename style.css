@@ -1,0 +1,66 @@
+<style>
+h1{
+text-align:center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display:block;
+  color:white ;
+  padding: 16px;
+  text-decoration:none;
+}
+
+li a:hover {
+  background-color: #111111; n 
+}
+
+h2 {
+	text-decoration:underline
+}
+article{
+	float:right;
+}
+aside{
+	float:left;
+}
+footer{
+	background:#333;
+	color:#fff;
+	text-align:center;
+	margin:20px;
+	padding:20px
+	
+}form .input .btn{
+	background-color:blue;
+  color:#fff;
+}
+  
+/* sidebar*/
+
+#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+#table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#tableth, td {
+  padding: 15px;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+}
